@@ -1,0 +1,164 @@
+p {
+	text-align: center;
+	font-size: 20px;
+	font-family: Fantasy, Copperplate, serif;
+	color: black;
+}
+a {
+	font-size: 20px;
+	font-family: Fantasy, Copperplate, serif;
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: #ffd500;
+	font-size: 21px;
+}
+#selected a {
+	color: #ffd500;
+	font-size: 21px;
+}
+
+.item a {
+	color: #ffffff;
+  	position: relative;
+  	top: 17%;
+}
+.item a:hover {
+	color: #ffd500;
+	font-size: 22px;
+}
+
+.header {
+	width: 100%;
+	height: 200px;
+	background: url("img/Header_img.jpg") center no-repeat;
+	background-color: #b5ffff;
+	position: relative;
+	top: -20px;
+}
+body {
+	background-color: #000000;
+}
+.top_left {
+	text-align: left;
+	vertical-align: baseline top;
+	padding-top: 15px;
+	padding-bottom: 110px;
+	margin-left: 20px;
+	color: #005bbb;
+}
+.bot_right {
+	text-align: right;
+	vertical-align: baseline bottom;
+	margin-right: 20px;
+	color: #ffd500;
+}
+
+.content {
+	width: 100%;
+	height: 1100px;
+	position: relative;
+	top: -30px;
+}
+
+.products {
+	background-color: #005bbb;
+	width: 20.5%;
+	height: 100%;
+	float: left;
+
+}
+.content_panel {
+	background-color: #222222;
+	height: 40px;
+}
+.content_panel p {
+	color: #ffffff;
+	text-align: bottom;
+	margin: 0 auto;
+	padding: 7px 0px 0px 0px;
+}
+.item {
+	height: 50px;
+	text-align: center;
+	position: relative;
+}
+
+
+
+.description {
+	background-color: #ffd500;
+	width: 79%;
+	height: 100%;
+	margin-left: auto;
+}
+.description p {
+	padding-top: 170px;
+	width: 60%;
+	position: relative;
+	left: 20%;
+	color: #005bbb;
+}
+
+.future {
+	background-color: #b5ffff;
+	width: 100%;
+	position: relative;
+	top: -25px;
+	height: 100px;
+	align-items: center;
+}
+.ft_element {
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	width: 140px;
+	height: 30px;
+	position: relative;
+	left: 37%;
+	top: 35%;
+	display: grid;
+}
+.ft_element img	 {
+	float: left;
+	width: 30px;
+	height: 30px;
+}
+.ft_element a {
+	position: relative;
+	margin-left: 25%;
+	margin-top: -19%;
+}
+.ft_element a:hover {
+	color: #005bbb;
+}
+
+
+.screenshots {
+	padding-left: 125px;
+}
+.screenshots img {
+	float: left;
+	margin: 10px 10px 10px 10px;
+	height: 122.48px;
+	width: 213.09px;
+	border: 3px;
+	border-style: solid;
+	border-color: #000000;
+	border-radius: 10px;
+}
+.description2 {
+	background-color: #ffd500;
+	width: 79%;
+	height: 100%;
+	margin-left: auto;
+}
+.description2 p {
+	padding-top: 20px;
+	width: 60%;
+	position: relative;
+	left: 20%;
+	color: #005bbb;
+}
+
